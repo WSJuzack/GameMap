@@ -1,11 +1,11 @@
-## General Informations
+### General Information
 
-Gamelab II requires us to create a plugin/package for unity or unreal, which helps developers with the game development process.
+Gamelab II requirements were  to create a plugin/ package for Unity or Unreal, which helps developers with the game development process.
 This year we also had external stakeholders, which proposed the projects to us.
-With my partner Tobias Böhler, we chose this topic because AI is very important in the games industry and working
-with one of the most modern methods, is a very good way to get up to date knowledge on that subject.
+With my partner Tobias Böhler, we chose this topic because AI is very important in the games industry. Working
+with one of the most modern methods was a very good way for us to get up to date knowledge on this subject.
 
-Like the previous project the trailer, poster and report for the project are in "presentation".
+Like in the previous project documentation,  the trailer, poster and report for this project are in the "presentation" folder.
  
 ## Abstract
 
@@ -34,6 +34,8 @@ General usage:		Height maps will be saved in the 'Assets' folder of your unity p
 ! The Python for Unity API is still in a experimental state, this leads to some Unity crashing bugs, we were not able to resolve !
 ! It will always work on the first time you press play in the Unity Editor, but it will crash once you stop and start playing again !
 			
+
+
 
 
 
