@@ -1,2 +1,2 @@
 # GameMap
-Every project I have finished until now
+Every project I have finished so far
