@@ -1,0 +1,6 @@
+[submodule "code/Hookmaster/extern/reactphysics3d"]
+	path = code/Hookmaster/extern/reactphysics3d
+	url = https://github.com/DanielChappuis/reactphysics3d.git
+[submodule "code/Hookmaster/extern/assimp"]
+	path = code/Hookmaster/extern/assimp
+	url = https://github.com/assimp/assimp.git

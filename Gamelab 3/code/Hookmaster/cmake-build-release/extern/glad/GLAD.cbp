@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLAD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\extern\;CMake Files\extern\assimp\;CMake Files\extern\assimp\cmake-modules\;CMake Files\extern\assimp\include\;CMake Files\extern\assimp\include\assimp\;CMake Files\extern\assimp\contrib\;CMake Files\extern\assimp\contrib\zlib\;CMake Files\extern\assimp\code\;CMake Files\extern\assimp\test\;CMake Files\extern\assimp\test\headercheck\;CMake Files\extern\glad\;CMake Files\extern\glfw\;CMake Files\extern\glfw\CMake\;CMake Files\extern\glfw\src\;CMake Files\extern\reactphysics3d\;CMake Files\extern\glm\;CMake Files\extern\glm\glm\;CMake Files\extern\soloud\;CMake Files\extern\soloud\contrib\;CMake Files\extern\soloud\contrib\cmake\;CMake Files\extern\soloud\src\;CMake Files\extern\tinygltf\;CMake Files\engine\;CMake Files\game\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-release/extern/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-release/extern/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-release/extern/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 glad"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-release/extern/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-release/extern/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 glad/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\jh200\Documents\GamelabIIIFinal\code\Hookmaster\cmake-build-release\extern\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/include/KHR/khrplatform.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/assimp.pc.in">
+			<Option virtualFolder="CMake Files\extern\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\extern\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\extern\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/cmake-modules/assimp-plain-config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/include/assimp/config.h.in">
+			<Option virtualFolder="CMake Files\extern\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/include/assimp/revision.h.in">
+			<Option virtualFolder="CMake Files\extern\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/contrib/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\extern\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/contrib/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\extern\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\assimp\code\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\assimp\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/assimp/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\assimp\test\headercheck\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glad\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\extern\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\extern\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/reactphysics3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\reactphysics3d\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\soloud\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/contrib/Configure.cmake">
+			<Option virtualFolder="CMake Files\extern\soloud\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/contrib/src.cmake">
+			<Option virtualFolder="CMake Files\extern\soloud\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/contrib/cmake/Install.cmake">
+			<Option virtualFolder="CMake Files\extern\soloud\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/contrib/cmake/OptionDependentOnPackage.cmake">
+			<Option virtualFolder="CMake Files\extern\soloud\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/contrib/cmake/PrintOptionStatus.cmake">
+			<Option virtualFolder="CMake Files\extern\soloud\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\soloud\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/tinygltf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\tinygltf\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\"/>
+		</Unit>
+		<Unit filename="C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

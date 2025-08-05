@@ -1,0 +1,516 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						6,
+						8,
+						9,
+						10,
+						15,
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "extern/glad",
+					"jsonFile" : "directory-extern.glad-Debug-3702a3d5c158162a1524.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/glad",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "extern/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.glfw-Debug-8ea4eb5864de6c5c703b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/glfw",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "extern/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.glfw.src-Debug-d0d61e8dc75263d00ebe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/glfw/src",
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"build" : "extern/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-extern.glm-Debug-35cf56aad8212f7e4bdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "extern/glm"
+				},
+				{
+					"build" : "extern/glm/glm",
+					"jsonFile" : "directory-extern.glm.glm-Debug-3d9dd3b79f75f73626b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "extern/glm/glm"
+				},
+				{
+					"build" : "extern/soloud",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.soloud-Debug-1f2b1f7d2b1ff60a99a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "extern/soloud"
+				},
+				{
+					"build" : "extern/soloud/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.soloud.src-Debug-cf0e3f0e56b86deb4a51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "extern/soloud/src",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "extern/tinygltf",
+					"jsonFile" : "directory-extern.tinygltf-Debug-f3af1afbc752ff6feb58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/tinygltf",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "extern/reactphysics3d",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.reactphysics3d-Debug-0af3d5f6c07db99a0044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "extern/reactphysics3d",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "extern/assimp",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.assimp-Debug-73ee3f88c3c5f3099d81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "extern/assimp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/assimp/contrib/zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.assimp.contrib.zlib-Debug-b3f29e10cf5e31328bd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 7,
+					"source" : "extern/assimp/contrib/zlib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "extern/assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.assimp.code-Debug-1bd348a1a0d319140546.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 6,
+					"source" : "extern/assimp/code",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "extern/assimp/test",
+					"childIndexes" : 
+					[
+						14
+					],
+					"jsonFile" : "directory-extern.assimp.test-Debug-2e66a1653eba8daa9977.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 6,
+					"source" : "extern/assimp/test",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "extern/assimp/test/headercheck",
+					"jsonFile" : "directory-extern.assimp.test.headercheck-Debug-dd72660aa7d3d916dc44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 6,
+					"source" : "extern/assimp/test/headercheck"
+				},
+				{
+					"build" : "engine",
+					"jsonFile" : "directory-engine-Debug-776e2b00c6520ab49d05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "engine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "game",
+					"jsonFile" : "directory-game-Debug-b67dffe3df9019a6d767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "game",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						8,
+						15,
+						16
+					],
+					"name" : "Swingmonkey",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GLAD",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "soloud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "ReactPhysics3D",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7
+					],
+					"directoryIndexes" : 
+					[
+						10,
+						12,
+						13,
+						14
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "zlib",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 15,
+					"id" : "Engine::@4088515cb4035b412499",
+					"jsonFile" : "target-Engine-Debug-6cf27a0d33687e14f131.json",
+					"name" : "Engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Game::@0c53ff3c4131f9152fd3",
+					"jsonFile" : "target-Game-Debug-ece3785a6c6be480ccfa.json",
+					"name" : "Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "UpdateAssimpLibsDebugSymbolsAndDLLs::@e0b101fdbdb7b8c30250",
+					"jsonFile" : "target-UpdateAssimpLibsDebugSymbolsAndDLLs-Debug-854a57cfd258da5b6dbf.json",
+					"name" : "UpdateAssimpLibsDebugSymbolsAndDLLs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "assimp::@bad49646b187fc7d660f",
+					"jsonFile" : "target-assimp-Debug-8eac6d65949ba3d9edd8.json",
+					"name" : "assimp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@6d81f930c6bec73dde7b",
+					"jsonFile" : "target-glad-Debug-a5ece7a080e9a25e4cb4.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@81d610105217ee077306",
+					"jsonFile" : "target-glfw-Debug-3024fe3e70ce66a0ce05.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "reactphysics3d::@b3cecd3c0a26f1940400",
+					"jsonFile" : "target-reactphysics3d-Debug-85843d14f162ac810dc3.json",
+					"name" : "reactphysics3d",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "soloud::@006c352cce72c02180a4",
+					"jsonFile" : "target-soloud-Debug-e198353df91cf6601c45.json",
+					"name" : "soloud",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "tinygltf::@a962d5f16185a7abee62",
+					"jsonFile" : "target-tinygltf-Debug-27957d639d67f71ab130.json",
+					"name" : "tinygltf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@13c6ebe2c8011b876f32",
+					"jsonFile" : "target-uninstall-Debug-1888a69c1140e75ef74d.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "unit::@90849b97ee98be424eeb",
+					"jsonFile" : "target-unit-Debug-fffd83b38ece888c60be.json",
+					"name" : "unit",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@81d610105217ee077306",
+					"jsonFile" : "target-update_mappings-Debug-1dcdd86934692b6e7b71.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "zlibstatic::@22bfef881017a1c3067d",
+					"jsonFile" : "target-zlibstatic-Debug-b4204a4d3f25c71691d6.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/cmake-build-debug",
+		"source" : "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

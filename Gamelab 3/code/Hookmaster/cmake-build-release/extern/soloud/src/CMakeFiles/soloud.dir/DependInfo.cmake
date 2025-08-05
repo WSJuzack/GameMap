@@ -1,0 +1,65 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/openmpt/soloud_openmpt_dll.c" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/openmpt/soloud_openmpt_dll.c.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/openmpt/soloud_openmpt_dll.c.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/wav/stb_vorbis.c" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/stb_vorbis.c.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/stb_vorbis.c.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/monotone/soloud_monotone.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/monotone/soloud_monotone.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/monotone/soloud_monotone.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/openmpt/soloud_openmpt.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/openmpt/soloud_openmpt.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/openmpt/soloud_openmpt.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/sfxr/soloud_sfxr.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/sfxr/soloud_sfxr.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/sfxr/soloud_sfxr.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/speech/darray.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/darray.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/darray.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/speech/klatt.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/klatt.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/klatt.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/speech/resonator.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/resonator.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/resonator.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/speech/soloud_speech.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/soloud_speech.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/soloud_speech.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/speech/tts.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/tts.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/speech/tts.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/tedsid/sid.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/sid.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/sid.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/tedsid/soloud_tedsid.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/soloud_tedsid.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/soloud_tedsid.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/tedsid/ted.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/ted.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/tedsid/ted.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/vic/soloud_vic.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/vic/soloud_vic.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/vic/soloud_vic.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/vizsn/soloud_vizsn.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/vizsn/soloud_vizsn.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/vizsn/soloud_vizsn.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/wav/dr_impl.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/dr_impl.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/dr_impl.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/wav/soloud_wav.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/soloud_wav.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/soloud_wav.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/audiosource/wav/soloud_wavstream.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/soloud_wavstream.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/audiosource/wav/soloud_wavstream.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/backend/null/soloud_null.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/backend/null/soloud_null.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/backend/null/soloud_null.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/backend/winmm/soloud_winmm.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/backend/winmm/soloud_winmm.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/backend/winmm/soloud_winmm.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_audiosource.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_audiosource.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_audiosource.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_bus.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_bus.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_bus.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_3d.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_3d.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_3d.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_basicops.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_basicops.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_basicops.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_faderops.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_faderops.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_faderops.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_filterops.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_filterops.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_filterops.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_getters.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_getters.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_getters.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_setters.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_setters.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_setters.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_voicegroup.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_voicegroup.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_voicegroup.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_core_voiceops.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_voiceops.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_core_voiceops.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_fader.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fader.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fader.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_fft.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fft.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fft.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_fft_lut.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fft_lut.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_fft_lut.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_file.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_file.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_file.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_filter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_filter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_filter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_queue.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_queue.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_queue.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/core/soloud_thread.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_thread.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/core/soloud_thread.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_bassboostfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_bassboostfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_bassboostfilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_biquadresonantfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_biquadresonantfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_biquadresonantfilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_dcremovalfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_dcremovalfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_dcremovalfilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_echofilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_echofilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_echofilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_fftfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_fftfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_fftfilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_flangerfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_flangerfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_flangerfilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_lofifilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_lofifilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_lofifilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_robotizefilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_robotizefilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_robotizefilter.cpp.obj.d"
+  "C:/Users/jh200/Documents/GamelabIIIFinal/code/Hookmaster/extern/soloud/src/filter/soloud_waveshaperfilter.cpp" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_waveshaperfilter.cpp.obj" "msvc" "extern/soloud/src/CMakeFiles/soloud.dir/filter/soloud_waveshaperfilter.cpp.obj.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

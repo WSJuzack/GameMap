@@ -1,0 +1,24 @@
+# Blender MTL File: 'tramoline.blend'
+# Material Count: 2
+
+newmtl magnet
+Ns 1000.000000
+Ka 0.100000 0.100000 0.100000
+Kd 0.980392 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../textures/ImphenziaPalette01-256-Gradient.png
+
+newmtl metal
+Ns 1000.000000
+Ka 0.050000 0.050000 0.050000
+Kd 0.941176 0.980392 0.941176
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../textures/MetalTexture.jpg
